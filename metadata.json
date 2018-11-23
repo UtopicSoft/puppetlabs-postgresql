@@ -4,6 +4,7 @@
   "author": "Inkling/Puppet Labs",
   "summary": "Offers support for basic management of PostgreSQL databases.",
   "license": "Apache-2.0",
+  "tags": [ "db", "postgre", "postgres", "postgresql", "database" ],
   "source": "git://github.com/puppetlabs/puppetlabs-postgresql.git",
   "project_page": "https://github.com/puppetlabs/puppetlabs-postgresql",
   "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
