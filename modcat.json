@@ -1,0 +1,55 @@
+[
+    {
+        "name": "product_owner",
+        "description": "product owner",
+        "value": {
+            "full_name": "Krista Osborne",
+            "email": "kosborne@wf.com",
+            "team_link": null
+        }
+    },
+    {
+        "name": "capabilities",
+        "description": "upgrade, downgrade, install, uninstall",
+        "value": [ "upgrade", "stop-service", "start-service", "install", "uninstall" ]
+    },
+    {
+        "name": "product_versions",
+        "description": "supported product versions",
+        "value": [
+            {
+                "operating_system": "RedHat",
+                "versions": [
+                    {
+                        "version": "9.2.24-1", 
+                        "is_tested": true
+                    },
+                    {
+                        "version": "9.2.23-3", 
+                        "is_tested": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "last_review_date",
+        "description": "date of last module review",
+        "value":  "2018-11-21"
+    },
+    {
+        "name": "is_deprecated",
+        "description": "Denoted whether the module can be used for new deployments",
+        "value": false
+    },
+    {
+        "name": "is_orderable",
+        "description": "Property unknown to MC: is the product orderable?",
+        "value": true
+    },
+    {
+        "name": "stacks",
+        "description": "Property unknown to MC: list of stacks this module is part of",
+        "value": [ "psql", "lapp", "lnpp" ]
+    }
+]
