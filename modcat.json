@@ -19,7 +19,7 @@
         "value": [
             {
                 "operating_system": "RedHat",
-                "versions": ["9.2.24-1", "9.2.23-3"]
+                "versions": ["9.2.24-1", "9.2.23-3", "9.2.23-5" ]
             }
         ]
     },
